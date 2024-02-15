@@ -1,4 +1,4 @@
-package com.gestion_inventario.demo.models.dto;
+package com.gestion_inventario.sgi.models.dto;
 
 import org.springframework.boot.autoconfigure.security.SecurityProperties.User;
 

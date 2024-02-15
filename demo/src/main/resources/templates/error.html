@@ -1,11 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.tyhmeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Error</title>
 </head>
 <body>
-    <h1>Pagina no encontrada</h1>
+   
+    <h1>Error, Pagina no Encontrada</h1>
+    <div>
+        <input class="BtnErrrorBackHomePage" type="button" value="Volver a pagina principal" onclick="irPaginaPrincipal()">
+    
+        <script>
+            function irPaginaPrincipal() {
+                window.location.href = "/index"; // Reemplaza "index.html" con la ruta de tu página principal
+            }
+        </script>
+    </div>
 </body>
 </html>

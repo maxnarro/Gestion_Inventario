@@ -1,4 +1,4 @@
-package com.gestion_inventario.demo;
+package com.gestion_inventario.sgi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

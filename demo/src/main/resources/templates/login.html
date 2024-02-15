@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.tyhmeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,45 +8,5 @@
 <body>
     <h1>Iniciar Sesion</h1>
 
-    <form class="formLogin" action="/login" method="post">
-        <fieldset class="fieldsetLogin">
-            <legend>Inicio Sesion</legend>
-
-            <div> 
-                <label>Usuario:</label>
-                <input type="text" name="usuario" placeholder="Nombre de usuario" required>
-            </div>
-
-            <div>
-                <label>Contraseña:</label>
-                <input type="password" name="contraseña" placeholder="Ingrese contraseña" required>
-            </div>
-        </fieldset>
-
-        <div>  
-            <div>
-                <input class="boton" type="submit" value="Ingresar" onclick="IngersarSesion()">
-            </div>
-            <div>
-                <input class="boton" type="button" value="Registrar" onclick="RegistrarPerfil()">
-            </div>
-        </div>
-    </form>
-
-    <div class="enlace">
-        <a href="">Olvidé contraseña</a>
-    </div>
-
-    <script>
-        function IngresarSesion() {
-            window.location.href =  "/inicio";
-        }
-    </script>
-
-<script>
-    function RegistrarPerfil() {
-        window.location.href = "/registrarse";
-    }
-</script>
 </body>
 </html>
